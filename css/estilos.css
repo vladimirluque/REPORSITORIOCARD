@@ -1,0 +1,47 @@
+*, *:before, *:after {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family:Georgia, 'Times New Roman', Times, serif, sans-serif;
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.contenedor {
+    gap: 15px;
+    margin: auto;
+    justify-items: center;
+    align-items: center;
+}
+.card{
+    height: 250px;
+    width: 300px;
+    overflow: hidden;
+    margin: auto;
+    padding: 10px 30px;
+    border-radius: 2%;
+    border: 1px solid #fff;
+    transition: all .4s ease-in-out;
+    box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.3);
+    text-align: center;
+    background: linear-gradient(-135deg, grey, white );
+}
+
+.card img{
+    position: relative;
+    border-radius: 50%;
+    display: block;
+    height: 200px;
+    width: 200px;
+    border-top: 8px solid yellow;
+    border-bottom: 8px solid yellow;
+    object-fit: cover;
+    margin: 20px auto;
+    transition: all o.3s ease;
+    
+}
